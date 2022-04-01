@@ -2,7 +2,7 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: **Esau Veliz**
 
 Time spent: **#** hours spent in total
 
@@ -38,11 +38,17 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![](https://i.imgur.com/LHuVzt5.gif)
+
+![](https://i.imgur.com/K81c8gG.gif)
+
+![](https://i.imgur.com/PNpmDHR.gif)
+
+![](https://i.imgur.com/ws1wWi8.gif)
+
+![](https://i.imgur.com/bDdBeb2.gif)
+
+![](https://i.imgur.com/JWmRmo4.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -66,7 +72,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Esau Veliz]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
