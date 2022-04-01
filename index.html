@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    
+    <title>Light and Sound Memory Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1 style="text-align:center">Light and Sound Memory Game</h1>
+    
+    <!-- welcome message and instructions -->
+    <p style="text-align:center">
+      Welcome to the light and sound memory game, where you will be putting your memorization skills to the test!
+    </p>
+    <p style="text-align:center">
+      You will be given a random pattern of eight clues that you will progressively remember and immitate. However,
+      <br> be careful, the game speeds up every time you guess the pattern correctly!
+    </p>
+    <p style="text-align:center">
+      First, select the amount of buttons you would like to play with. Next, press Start when you are ready to begin.
+      <br> Didn't like your choice? Simply press Restart to change the amount of buttons you would like to play with.
+    </p>
+    
+    <!-- game settings and controls -->
+    <div id="controlButtonArea">
+      <button id="numButtons2" onclick="setNumButtons(2)">2</button>
+      <button id="numButtons3" onclick="setNumButtons(3)">3</button>
+      <button id="numButtons4" onclick="setNumButtons(4)">4</button>
+      <button id="numButtons5" onclick="setNumButtons(5)">5</button>
+      <button id="numButtons6" onclick="setNumButtons(6)">6</button>
+      <button id="numButtons7" onclick="setNumButtons(7)">7</button>
+      <button id="numButtons8" onclick="setNumButtons(8)">8</button>
+      
+      <button id="startBtn" class="hidden" onclick="startGame()">Start</button>
+      <button id="resetBtn" class="hidden" onclick="resetGame()">Reset</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    </div>
+    
+    &nbsp;&nbsp;
+    
+    <!-- game buttons -->
+    <div id="gameButtonArea1">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+    
+    <div id="gameButtonArea2">
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
+    </div>
+  </body>
+</html>
