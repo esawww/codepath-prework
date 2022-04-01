@@ -6,7 +6,7 @@ Submitted by: **Esau Veliz**
 
 Time spent: **#** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/adhesive-spicy-vision
 
 ## Required Functionality
 
