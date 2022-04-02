@@ -52,17 +52,21 @@ The following **additional** features are implemented:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. <br/>
+
 https://www.w3schools.com/html/default.asp <br/>
 https://www.w3schools.com/css/default.asp <br/>
 https://www.w3schools.com/js/default.asp <br/>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? <br/>
+
 While developing code that gave the user the ability to choose the number of buttons they want, I came across a problem with generating the random pattern for the game that contained only the buttons the user specified. The first major step I took in resolving the issue was creating a global variable to keep track of how many buttons were currently present on the screen. Within my function that generated the pattern, I then used that global random variable to correctly generate the random numbers to add to the pattern based on the user's input. However, since I also allowed the user the ability to reset their choice and repeat the whole process, I had issues with correctly updating the global variable. To combat the issue, I proceeded to debug major the major functions that started, reset, and stopped the game by logging the state of the global variable. Using this method, I was able to identify that I needed to correctly update the global variable when the game was reset or stopped. This was due to the fact that when the variable changed by the user input before the game started, and the user proceeded to either reset or stop the game, the variable did not reflect the game changing to its original state.]
 
 3. What questions about web development do you have after completing your submission? <br/>
+
 After completing my submission, I have further questions about user input and interactions with a website. While I was able to log user input by using buttons that were labeled, I am curious as to whether there are any further ways to interpret user input. A few ideas in mind include how to log user keyboard input, or mouse movement across a website, and a website's response to these actions. The reason I am interested in this subject is due the fact that websites are extremely centered on user experience and choice. Specifically, continuing to develop websites, I want make sure users are getting quality in terms of website interactions and choices.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. <br/>
+
 If I had a few more hours to work on this project, I would spend them decomposing pieces of code and adding additional features. For example, within my code, I frequently add and remove "hidden" from certain elements. In order to improve on this, I would find a method to decompose my code into a helper function that would consist of adding and removing "hidden" based on the scenario. In terms of adding additional features, along with giving the user the ability to choose how many buttons they want to play with, I would develop a process that would also allow the user to choose the pattern length they want to play with. This would consist of receiving a certain input from the user, not sustainable through a series of buttons if the user wants a big number, and updating the correct variables in the code. Furthermore, I would continue to integrate the optional features into my game.
 
 ## Interview Recording URL Link
